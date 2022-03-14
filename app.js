@@ -15,7 +15,7 @@ const isOpen = true;
 const stringBoolean = "true";
 
 // e) typu string o nazwie stringNumber o wartości 100 //
-const stringNumber = 100;
+const stringNumber = "100";
 
 // zad 2. Za pomocą console.log wyświetl wyniki poniższych równań przypisując je do zmiennej: //
 // a) przypisz do zmiennej wynik reszty z dzielenia 10 przez 4 //
@@ -236,9 +236,11 @@ const isAdult = true
 // Jakim cudem może być return w instrukcji ? ? 
 
 // v1. 
-if(isAdult === true){
-  console.log('asd')
+if(isAdult){
+  console.log(' jesteś pełnoletni')
 }
 
 // v 2
 console.log(isAdult === true ? `Możesz kupić alkohol` : `Nie możesz kupić alkoholu, jesteś nieletni!`)
+
+// skrócona versja zapisu to ...  ( isAdult ? `asas` : 'asdasd` )
